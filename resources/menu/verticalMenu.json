@@ -1,0 +1,190 @@
+{
+    "menu": [
+        {
+            "url": "/dashboard",
+            "name": "داشبورد",
+            "icon": "menu-icon tf-icons bx bx-home-circle",
+            "slug": "dashboardPage"
+        },
+        {
+            "menuHeader": "اخبار"
+        },
+        {
+            "name": "اخبار",
+            "icon": "menu-icon tf-icons bx bxs-news",
+            "slug": "news",
+            "submenu": [
+                {
+                    "url": "/news",
+                    "name": "لیست",
+                    "slug": "news.index"
+                },
+                {
+                    "url": "/news/create",
+                    "name": "ثبت",
+                    "slug": "news.store"
+                }
+            ]
+        },
+        {
+            "menuHeader": "نظرات"
+        },
+        {
+            "name": "نظرات",
+            "icon": "menu-icon tf-icons bx bx-comment",
+            "slug": "comments",
+            "submenu": [
+                {
+                    "url": "/comments",
+                    "name": "لیست",
+                    "slug": "comments.index"
+                }
+            ]
+        },
+        {
+            "menuHeader": "علاقه مندی"
+        },
+        {
+            "name": "علاقه مندی",
+            "icon": "menu-icon tf-icons bx bx-bookmark-heart",
+            "slug": "favorites",
+            "submenu": [
+                {
+                    "url": "/favorites",
+                    "name": "لیست",
+                    "slug": "favorites.index"
+                }
+            ]
+        },
+        {
+            "menuHeader": "بازدید سایت"
+        },
+        {
+            "name": "بازدید سایت",
+            "icon": "menu-icon tf-icons bx bx-smile",
+            "slug": "visits",
+            "submenu": [
+                {
+                    "url": "/visits",
+                    "name": "لیست",
+                    "slug": "news.index"
+                }
+            ]
+        },
+        {
+            "menuHeader": "لاگ"
+        },
+        {
+            "name": "لاگ",
+            "icon": "menu-icon tf-icons bx bx-message-alt-error",
+            "slug": "logs",
+            "submenu": [
+                {
+                    "url": "/logs",
+                    "name": "لیست",
+                    "slug": "logs.index"
+                }
+            ]
+        },
+        {
+            "menuHeader": "دسته بندی"
+        },
+        {
+            "name": "دسته بندی",
+            "icon": "menu-icon tf-icons bx bx-category",
+            "slug": "categories",
+            "submenu": [
+                {
+                    "url": "/categories/info",
+                    "name": "لیست",
+                    "slug": "categories.CategoriesInfo"
+                },
+                {
+                    "url": "/categories/create",
+                    "name": "ثبت",
+                    "slug": "categories.store"
+                }
+            ]
+        },
+        {
+            "menuHeader": "استان"
+        },
+        {
+            "name": "استان",
+            "icon": "menu-icon tf-icons bx bx-home",
+            "slug": "provinces",
+            "submenu": [
+                {
+                    "url": "/provinces",
+                    "name": "لیست",
+                    "slug": "provinces.index"
+                },
+                {
+                    "url": "/provinces/create",
+                    "name": "ثبت",
+                    "slug": "provinces.store"
+                }
+            ]
+        },
+        {
+            "menuHeader": "شهرستان"
+        },
+        {
+            "name": "شهرستان",
+            "icon": "menu-icon tf-icons bx bx-home",
+            "slug": "cities",
+            "submenu": [
+                {
+                    "url": "/cities",
+                    "name": "لیست",
+                    "slug": "cities.index"
+                },
+                {
+                    "url": "/cities/create",
+                    "name": "ثبت",
+                    "slug": "cities.store"
+                }
+            ]
+        },
+        {
+            "menuHeader": "کاربران"
+        },
+        {
+            "name": "کاربران",
+            "icon": "menu-icon tf-icons bx bxs-group",
+            "slug": "users",
+            "submenu": [
+                {
+                    "url": "/users",
+                    "name": "لیست",
+                    "slug": "users.index"
+                },
+                {
+                    "url": "/users/create",
+                    "name": "ثبت",
+                    "slug": "users.store"
+                }
+            ]
+        },
+        {
+            "menuHeader": "ادمین ها"
+        },
+        {
+            "name": "ادمین ها",
+            "icon": "menu-icon tf-icons bx bxs-group",
+            "slug": "admins",
+            "submenu": [
+                {
+                    "url": "/admins",
+                    "name": "لیست",
+                    "slug": "admins.index"
+                },
+                {
+                    "url": "/admins/create",
+                    "name": "ثبت",
+                    "slug": "admins.store"
+                }
+            ]
+        }
+    ]
+}
